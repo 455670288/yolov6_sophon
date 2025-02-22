@@ -1,0 +1,1 @@
+./yolov6_bmcv.soc --input=rtsp://172.16.40.84:553/live --bmodel=../../../models/BM1684X/yolov6s_19classes_int8.bmodel --dev_id=0 --conf_thresh=0.1 --nms_thresh=0.5 --classnames=../../../datasets/19classes.names --classes_filter=1 --classes_filter_list="0 1 2"

@@ -1,0 +1,3 @@
+/home/linaro/ljh/YOLOv6_sophon/cpp/yolov6_bmcv/build/CMakeFiles/rebuild_cache.dir
+/home/linaro/ljh/YOLOv6_sophon/cpp/yolov6_bmcv/build/CMakeFiles/edit_cache.dir
+/home/linaro/ljh/YOLOv6_sophon/cpp/yolov6_bmcv/build/CMakeFiles/yolov6_bmcv.soc.dir
