@@ -200,7 +200,7 @@ int main(int argc, char *argv[]){
                     int ret =  bmcv_image_jpeg_enc(h, 1, &batch_imgs[i], &jpeg_data, &out_size);
                     std::vector<uchar> jpeg_buffer(static_cast<uchar*>(jpeg_data), static_cast<uchar*>(jpeg_data) + out_size);
 
-                    //http://172.16.40.215:8010/bgr 显示
+                    //http://x.x.x.x:8010/bgr 显示
                     streamer.publish("/bgr", std::string(jpeg_buffer.begin(), jpeg_buffer.end()));
                     // cv::Mat img = cv::imdecode(jpeg_buffer, cv::IMREAD_COLOR);
                     free(jpeg_data);
